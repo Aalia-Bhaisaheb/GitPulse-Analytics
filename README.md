@@ -19,6 +19,10 @@ GitPulse Analytics is a full-stack application that fetches real-time data from 
   <img src="https://github.com/user-attachments/assets/03b84d8e-e12b-4044-a2b4-6f40e8b4248a" width="100%" alt="Dashboard Overview" />
 </p>
 
+<p align="center">
+  <img width="100%" alt="image" src="https://github.com/user-attachments/assets/5b9dd3c6-ec5d-45ac-a812-9dbb08523087" />
+</p>
+
 ---
 
 ## ✨ Features
