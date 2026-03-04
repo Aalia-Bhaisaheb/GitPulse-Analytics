@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --github-bg: #0d1117;
+  --github-header: #161b22;
+  --github-border: #30363d;
+  --github-text: #c9d1d9;
+  --github-muted: #8b949e;
+  --github-accent: #58a6ff;
+  --github-green: #238636;
+  --github-purple: #8957e5;
+  --github-neon-green: #39d353;
+  --github-neon-purple: #bc8cff;
+}
+
+@theme {
+  --color-github-bg: var(--github-bg);
+  --color-github-header: var(--github-header);
+  --color-github-border: var(--github-border);
+  --color-github-text: var(--github-text);
+  --color-github-muted: var(--github-muted);
+  --color-github-accent: var(--github-accent);
+  --color-github-green: var(--github-green);
+  --color-github-purple: var(--github-purple);
+  --color-github-neon-green: var(--github-neon-green);
+  --color-github-neon-purple: var(--github-neon-purple);
+}
+
+body {
+  background-color: var(--github-bg);
+  color: var(--github-text);
+  font-family: Inter, system-ui, sans-serif;
+  margin: 0;
+}
+
+.glass-card {
+  background-color: var(--github-header);
+  border: 1px solid var(--github-border);
+  border-radius: 0.75rem;
+}
+
+.neon-green-glow {
+  box-shadow: 0 0 15px rgba(57, 211, 83, 0.3);
+}
+
+.neon-purple-glow {
+  box-shadow: 0 0 15px rgba(188, 140, 255, 0.3);
+}
