@@ -16,7 +16,8 @@ const AIReview = () => {
     setReview(''); // Clear previous review
     
     try {
-      const response = await fetch('http://localhost:5000/api/ai-review', {
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+      const response = await fetch(`${apiUrl}/api/ai-review`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ userData, type: reviewType }),
